@@ -1,12 +1,11 @@
 /* Body */
     body {
-        background-color: #ECA58D;
+        background-color: #EFB4A0;
         font-size: large;
         font-family: 'Raleway', 'Urbanist', 'Comfortaa', Verdana, Tahoma, sans-serif;
         text-align: center;
         padding: 20px;
     }
-
 /* Headings */
     h1 {
         font-family: 'Rampart One', Georgia, Times, serif;
@@ -24,9 +23,7 @@
     h4 {
         font-family: 'Domine', 'Arvo', Georgia, Times, serif;
     }
-
     .listHead {text-align: left;}
-
 /* Text */
     p {
         background-color: #F2C3B3;
@@ -50,11 +47,9 @@
         margin-left: 15px;
         width: 30%;
       }
-
 /* Lists */
     ul, ol, dl {text-align: left;}
     li, dt, dd {text-align: left;}
-
 /* Links */
     a:link {
         color: #3CB371;
@@ -77,7 +72,6 @@
         color: #2E8B57; 
         background-color: transparent;
     }
-
 /* Tables */
     table {border-style: inset;}
     th, td {
@@ -86,8 +80,48 @@
         border-style: outset;
         background-color: #9FC69F;
     }
-    tr:hover{background-color: #9Ff69F;}
+    td:hover{background-color: #9Ff69F;}
+/* Flexbox */
+    .projGallery {
+        border-style: solid;
+            border-width: 4px;
+            border-radius: 12px;
+        
+        border-color: #E9967A;
+        background-color: #F2C3B3;
 
+        padding: 5px;
+        margin: 5px;
+
+        display: flex;
+            flex-flow: row wrap;
+            justify-content: space-around;
+            align-items: stretch;
+            align-content: space-around;
+    }
+    .projCard {
+        border-style: solid;
+            border-width: 4px;
+            border-radius: 12px;
+            
+        border-color: #ECA58D;
+        background-color: #F6D2C6;
+
+        padding: 5px;
+        margin: 5px;
+
+        flex: 1 1 400px;
+            max-width: 500px;
+            /*min-width: 25%;*/
+    }
+    .projImage {
+        padding: 5px;
+
+        float: right;
+
+        max-height: 70%;
+        max-width: 40%;
+    }
 /* Font Ideas
     Notes Font: 
         'Nanum Pen Script', 'Schoolbell', 'Yuji Boku', 'Dokdo'
@@ -96,11 +130,11 @@
 */
 /* Color Swatches
     Dark Salmon-White
-        #E9967A Dark Salmon
-        #ECA58D body
-        #EFB4A0
-        #F2C3B3 p
-        #F6D2C6 
+        #E9967A border gallery
+        #ECA58D border card
+        #EFB4A0 body
+        #F2C3B3 background (p gallery)
+        #F6D2C6 card
         #F9E1D9 article
         #FCF0EC
         #FFFFFF White
