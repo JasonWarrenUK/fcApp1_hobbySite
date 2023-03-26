@@ -15,19 +15,19 @@
     </head>
 
     <body>
-        <!--Header Content--> <header id="header">
-            <section id="headerTitle">
+        <!--Header Content--> <header id="head">
+            <section id="headTitle">
                 <h1>The Cavern of Curiosidoodles</h1>
                 <h4>by Rupert J. Piggit</h4>
             </section>
             
-            <section id="headerIntro">
+            <section id="headIntro">
                 <p style="font-style: italic">Hello and many welcomes to a <mark title="note: ask someone how to spell this">wundrus</mark> selection of interesting fripperies.<br>
                     I hope you will find some things of very interest for your thinktop.</p>
             </section>
         </header>
         
-        <!--Nav Menu--> <nav id="contents">
+        <!--Nav Menu--> <nav id="navi">
             <h2>Fings</h2>
             <a href="#think">Headscratchers</a><br>
             <a href="#snacks">Snack Facts</a><br>
@@ -38,87 +38,86 @@
 
         <hr />
         
-        <!--Main Page Content--> <main>
-            <!--Poem--> <section id="think">
-                <section id="thinkIntro">
-                    <h2>Thinkin' of the <mark title="note: remember to change this each day">Day</mark></h2>
-
-                    <p id="thinkDate"><button type="button" onclick="document.getElementById('dateNow').innerHTML = Date()">Current Date:</button><span id="dateNow"></span><br>
+        <main>
+            <!--Think--> <section>
+                <h2>Thinkin's of the <mark title="note: remember to change this each day">Day</mark></h2>
+                <!--Poem--> <section id="poem">
+                    <h3>A Good Poem</h3>
+                    <p id="poemDate"><button type="button" onclick="document.getElementById('dateNow').innerHTML = Date()">Current Date:</button><span id="dateNow"></span><br>
                         <!--Time Since Update: </p>-->
-                </section>
-                        
-                <section id="thinkPoem">
-                    <pre id="thinkPoemText">
-                        If you get stuck<br>
-                        In lots of thinkin'<br>
-                        And forget to wash,<br>
-                        You're always stinkin'.
-                    </pre>
-                </section>
-            </section>
-            
-            <!--Snack Rating--> <section id="snacks">
-                <section id="snacksIntro">
-                    <h2>Crunch Rating Index</h2>
-                    <p>Very important new <mark title="note: do research">research</mark> about relative crunchiness of different snacks.</p>
-                </section>
-
-                <section id="snacksData">
-                    <section id="snacksDataTable">
-                        <table style="width: 100%">
-                            <caption>Empirical Crunch Data</caption>
-                            <tr>
-                                <th style="width: 40%" colspan="2">Name & Crunch Rating</th>
-                                <th style="width: 60%">Notes</th>
-                            </tr>
-                            <tr id="nikNaks">
-                                <td>Nik Naks</td>
-                                <td>9</td>
-                                <td>Superb crunch, flavour needs work</td>
-                            </tr>
-                            <tr id="peanutPuffs">
-                                <td>Peanut Puffs</td>
-                                <td>6</td>
-                                <td>Best flavour, disappointing crunch</td>
-                            </tr>
-                            <tr id="bombayMix">
-                                <td>Bombay Mix</td>
-                                <td rowspan="2">8</td>
-                                <td>Less crunch than Nik Naks but bigger bags</td>
-                            </tr>
-                            <tr id="baltiMix">
-                                <td>Balti Mix</td>
-                                <td>Spicy impostor, avoid</td>
-                            </tr>
-                        </table>
+                    <section id="poemBlock">
+                        <pre id="poemText">
+                            If you get stuck<br>
+                            In lots of thinkin'<br>
+                            And forget to wash,<br>
+                            You're always stinkin'.
+                        </pre>
                     </section>
-                    
-                    <section id="snacksDataLists" class="projGallery">
-                        <section id="snackDataListsRank" class="projCard">
-                            <h4 class="listHead">Crunch Rankings</h4>
-                            <ol type="I">
-                                <li>Nik Naks</li>
-                                <li>Bombay Mix</li>
-                                    <ul style="list-style-type: none;">
-                                        <li>See disqualified items</li>
-                                    </ul>
-                                <li>Peanut Puffs</li>
-                            </ol>
-                        </section>
-        
-                        <section id="snackDataListsBad" class="projCard">
-                            <h4 class="listHead">Disqualified</h4>
-                            <ul>
-                                <li>Balti Mix</li>
-                            </ul>
-                        </section>
+                </section>
+            
+                <!--Snack Rating--> <section id="snacks">
+                    <section id="snacksIntro">
+                        <h3>Crunch Rating Index</h3>
+                        <p>Very important new <mark title="note: do research">research</mark> about relative crunchiness of different snacks.</p>
+                    </section>
 
-                        <section id="snackGlossary" class="projCard">
-                            <h4 class="listHead">Crunch Glossary</h4>
-                            <dl>
-                                    <dt>Crunch Rating</dt>
-                                    <dd>Crunchiness on a Scale of 1-10</dd>
-                            </dl>
+                    <section id="snacksData">
+                        <section id="snacksDataTable">
+                            <table style="width: 100%">
+                                <caption>Empirical Crunch Data</caption>
+                                <tr>
+                                    <th style="width: 40%" colspan="2">Name & Crunch Rating</th>
+                                    <th style="width: 60%">Notes</th>
+                                </tr>
+                                <tr id="nikNaks">
+                                    <td>Nik Naks</td>
+                                    <td>9</td>
+                                    <td>Superb crunch, flavour needs work</td>
+                                </tr>
+                                <tr id="peanutPuffs">
+                                    <td>Peanut Puffs</td>
+                                    <td>6</td>
+                                    <td>Best flavour, disappointing crunch</td>
+                                </tr>
+                                <tr id="bombayMix">
+                                    <td>Bombay Mix</td>
+                                    <td rowspan="2">8</td>
+                                    <td>Less crunch than Nik Naks but bigger bags</td>
+                                </tr>
+                                <tr id="baltiMix">
+                                    <td>Balti Mix</td>
+                                    <td>Spicy impostor, avoid</td>
+                                </tr>
+                            </table>
+                        </section>
+                        
+                        <section id="snacksDataLists" class="projGallery">
+                            <section id="snackDataListsRank" class="projCard">
+                                <h4 class="listHead">Crunch Rankings</h4>
+                                <ol type="I">
+                                    <li>Nik Naks</li>
+                                    <li>Bombay Mix</li>
+                                        <ul style="list-style-type: none;">
+                                            <li>See disqualified items</li>
+                                        </ul>
+                                    <li>Peanut Puffs</li>
+                                </ol>
+                            </section>
+            
+                            <section id="snackDataListsBad" class="projCard">
+                                <h4 class="listHead">Disqualified</h4>
+                                <ul>
+                                    <li>Balti Mix</li>
+                                </ul>
+                            </section>
+
+                            <section id="snackGlossary" class="projCard">
+                                <h4 class="listHead">Crunch Glossary</h4>
+                                <dl>
+                                        <dt>Crunch Rating</dt>
+                                        <dd>Crunchiness on a Scale of 1-10</dd>
+                                </dl>
+                            </section>
                         </section>
                     </section>
                 </section>
@@ -155,19 +154,18 @@
 
         <hr />
 
-        <footer id="footer">
-            <section id="footerContact">
-                <h2>Contact</h2>
-                    
+        <!--Contact & End Links--> <footer id="footer">
+            <!--Contact Rupert--> <section id="footerContact">
+                <h2>Contact</h2>                    
                 <p>Thankyou for visiting<br>
                     please send me a letter at:<br>
                     <mark title="note: think this is how email addresses work">rupertthepig@nicefarm.countryside</mark></p>
                 <hr>
             </section>
 
-            <section id="footerNav">
-                <a href="#headerIntro">Read All This Loveliness Again</a><br>
-                <a href="#contents">Choose Which Loveliness to Read Again</a><br>
+            <!--End Links--> <section id="footerNavi">
+                <a href="#headIntro">Read All This Loveliness Again</a><br>
+                <a href="#navi">Choose Which Loveliness to Read Again</a><br>
                 <a href="https://JasonWarrenUK.github.io">Back to the Endless Tangent</a>
             </section>
         </footer>
