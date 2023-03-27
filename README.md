@@ -1,6 +1,6 @@
 # Pigpen
 
-## A Short & Simply Webpage About a... Hobby...?
+## A Short & Simple Webpage About a... Hobby...?
 
 ### Founders & Coders: Application Project 1
 
