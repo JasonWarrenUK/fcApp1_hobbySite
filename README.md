@@ -1,2 +1,5 @@
-# pigpen
-Founders &amp; Coders Application: Project #1
+# Pigpen
+
+## Founders & Coders Application
+
+### Project 1
