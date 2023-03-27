@@ -1,5 +1,11 @@
 # Pigpen
 
-## Founders & Coders Application
+## A Short & Simply Webpage About a... Hobby...?
 
-### Project 1
+### Founders & Coders: Application Project 1
+
+A project exploring the use of:
+
+- HTML
+- CSS
+- Basic JS DOM
